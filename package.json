@@ -1,0 +1,21 @@
+{
+  "name": "genesis-tab",
+  "version": "1.0.0",
+  "description": "genesis-tab, test site",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Genesis-TAB/genesis-tab.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nhugenesistab@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "netlify-cli": "^15.6.0"
+  }
+}

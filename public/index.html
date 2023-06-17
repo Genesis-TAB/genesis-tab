@@ -37,6 +37,9 @@ function bgChange(bg) {
     </td>
   </tr>
 </table>
-<script type="model" src=".netlify/functions/index.js"></script>
+<script>
+    fetch(`/.netlify/functions/app?name="Chair"`)
+      .then(response=>{console.log(response.json())});
+</script>
 </body>
 </html>

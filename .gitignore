@@ -25,3 +25,10 @@
 **/IntegrationServer/WmRepository4/
 **/IntegrationServer/XAStore/
 **/IntegrationServer/packages/Wm*/
+node_modules
+
+# Local Netlify folder
+.netlify
+
+# Local .env file
+.env
